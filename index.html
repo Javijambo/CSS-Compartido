@@ -1,27 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link href="" rel="stylesheet" type="text/css" title="Default Style">
-    <link rel="alternate stylesheet" type="text/css" Title="Ivan" href="Ivan.css">
-    <link rel="alternate stylesheet" type="text/css" Title="Sara" href="Sara.css">
-    <link rel="alternate stylesheet" type="text/css" Title="Alex" href="Alex.css">
-    <link rel="alternate stylesheet" type="text/css" Title="David" href="David.css">
-    <link rel="alternate stylesheet" type="text/css" Title="VUSTRO LIDER SUPREMO" href="Alvaro.css">
-    <link rel="alternate stylesheet" type="text/css" Title="Vilcu" href="Vilcu.css">
-    <link rel="alternate stylesheet" type="text/css" Title="Alberto" href="Alberto.css">
-    <link rel="alternate stylesheet" type="text/css" Title="Arturo" href="Arturo.css">
-    <link rel="alternate stylesheet" type="text/css" Title="Miguel/Diego " href="Miguel.css">
-    <link rel="alternate stylesheet" type="text/css" Title="Mario" href="Mario.css">
-    <link rel="alternate stylesheet" type="text/css" Title="Marcos" href="Marcos.css">
+    <link rel="stylesheet" type="text/css" id="stylesheet" href="Default.css">
 
     <title>Ejercicio</title>
 
 </head>
+<script>
+    function cambiar() {
+        var indice = document.getElementById('css');
+        var css = indice.options[indice.selectedIndex].value;
+
+        document.getElementById('stylesheet').href = css;
+    }
+</script>
 
 <body>
+    <select name="css" id="css">
+        <option value="Ivan.css">Ivan</option>
+        <option value="Sara.css">Sara</option>
+        <option value="Alex.css">Alex</option>
+        <option value="David.css">David</option>
+        <option value="Alvaro.css">Alvaro</option>
+        <option value="Vilcu.css">Adrian</option>
+        <option value="Alberto.css">Alberto</option>
+        <option value="Arturo.css">Arturo</option>
+        <option value="Miguel.css">Miguel</option>
+        <option value="Mario.css">Mario</option>
+        <option value="Marcos.css">Marcos</option>
+    </select>
+
+    <button onclick="cambiar()">Cambiar estilo</button>
     <h1 id="titulo">Loremipsum dolor sit amet</h1>
 
     <p>Nullapretium. Sed tempus nunc vitae neque.
@@ -31,8 +43,9 @@
 
     <h2 id="subtitulo">Aliquamtincidunt, semegetvolutpat porta</h2>
 
-    <p>Vivamusvelit dui, placeratvel, feugiat in, ornare et, urna. <a href="#">Aeneanturpismetus, <em>aliquam non</em>, tristique in</a>, pretiumvarius, sapien. Proin vitae nisi. Suspendisse<span class="especial">porttitorpurus ac elit</span>. Suspendisseeleifendodio
-        at dui. In in elitsedmetuspretiumelementum.
+    <p>Vivamusvelit dui, placeratvel, feugiat in, ornare et, urna. <a href="#">Aeneanturpismetus, <em>aliquam non</em>,
+            tristique in</a>, pretiumvarius, sapien. Proin vitae nisi. Suspendisse<span class="especial">porttitorpurus
+            ac elit</span>. Suspendisseeleifendodio at dui. In in elitsedmetuspretiumelementum.
     </p>
 
     <table summary="Descripción de la tabla y su contenido">
@@ -69,13 +82,13 @@
 
     <div id="adicional">
         <p>Donecpurusipsum, posuere id, venenatis at, <span>placerat ac,
-lorem</span>. Curabiturblandit, erossedgravidaaliquet, risusjusto portalorem, utmollislectustortor in orci. Pellentesquenecaugue.</p>
+                lorem</span>. Curabiturblandit, erossedgravidaaliquet, risusjusto portalorem, utmollislectustortor in orci. Pellentesquenecaugue.</p>
 
         <p>Fuscenecfeliseudiampretiumadipiscing. <span id="especial">Nunc
-elitelit, vehicula vulputate</span>, venenatis in, posuere id, lorem. Etiamsagittis, tellus in ultrices accumsan, diamnisifeugiat ante, eucongue magna mi non nisl.</p>
+                elitelit, vehicula vulputate</span>, venenatis in, posuere id, lorem. Etiamsagittis, tellus in ultrices accumsan, diamnisifeugiat ante, eucongue magna mi non nisl.</p>
 
         <p>Vivamusultricesaliquetaugue. <a href="#">Donecarcupede, pretium
-vitae</a>, rutrumaliquet, tinciduntblandit, pede. Aliquam in nisi. Suspendissevolutpat. Nullafacilisi. Ut ullamcorpernisiquismi.
+                vitae</a>, rutrumaliquet, tinciduntblandit, pede. Aliquam in nisi. Suspendissevolutpat. Nullafacilisi. Ut ullamcorpernisiquismi.
         </p>
     </div>
 
