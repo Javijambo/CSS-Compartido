@@ -1,0 +1,61 @@
+* {
+    background-color: white;
+}
+
+#titulo {
+    color: teal;
+}
+
+#subtitulo {
+    color: blue;
+}
+
+.destacado {
+    color: orange;
+}
+
+.especial {
+    color: purple;
+}
+
+a,
+th,
+strong {
+    color: red;
+}
+
+a::after {
+    color: red;
+}
+
+a>em,
+caption {
+    color: blue;
+}
+
+table,
+td,
+th {
+    padding: 4px;
+    border: 1px black solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th[class="especial"],
+td>strong {
+    color: orange;
+}
+
+body div[id] {
+    color: olive;
+}
+
+a:last-child,
+td {
+    color: green;
+}
+
+#especial {
+    color: fuchsia;
+}
