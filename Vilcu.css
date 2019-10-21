@@ -1,0 +1,28 @@
+h1{
+    color: teal;
+}
+strong{
+    color: red;
+}
+h2{
+    color: blue;
+}
+#destacado{
+    color: red;
+}
+p .destacado{
+    color: orange;   
+}
+.adicional{
+    color: olive;S
+}
+p a{
+    text-decoration: underline red;
+    color: red;
+}
+em{
+    color:blue;
+}
+#especial{
+    color: purple;
+}
