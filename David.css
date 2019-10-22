@@ -1,0 +1,57 @@
+/*teal, red, blue, orange, purple, olive, fuchsia y green*/
+h1 {
+    color:teal;
+}
+p strong:nth-child(1) {
+    color:red;
+}
+span[class="destacado"] {
+    color: orange;
+}
+#subtitulo {
+    color: blue;
+}
+a:first-of-type{
+    color: red;
+}
+a em {
+    color: blue;
+}
+span[class^="espe"] {
+    color: purple;
+}
+caption{
+    color:blue;
+}
+table,tr,td,th{
+    border-collapse: collapse;
+    border: black 1px solid;
+}
+thead tr th:nth-last-child(-n+2){
+    color:orange;
+}
+
+tr th[scope$="row"]{
+    color:red;
+}
+tr th[class$="cial"]{
+    color:orange;
+}
+strong:first-child{
+    color:orange;
+}
+tfoot th {
+    color:red;
+}
+td{
+    color:green;
+}
+div p{
+    color: olive;
+}
+div #especial {
+    color: fuchsia;
+}
+a:only-child{
+    color: green;
+}
