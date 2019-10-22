@@ -24,7 +24,11 @@ strong {
     color: red;
 }
 
-a::after {
+a:link {
+    color: red;
+}
+
+a:visited {
     color: red;
 }
 
