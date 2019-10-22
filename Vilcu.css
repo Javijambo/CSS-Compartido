@@ -48,7 +48,7 @@ tbody tr:last-child {/*9*/
 tr td {
   color: green;
 }
-div p+a {/*10*/
+div p a:visited {/*10*/
   color: green;
   text-decoration: underline green;
 }
