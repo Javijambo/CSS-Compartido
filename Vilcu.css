@@ -1,28 +1,65 @@
-h1{
-    color: teal;
+h1 {/*1*/
+  color: teal;
 }
-strong{
-    color: red;
+strong {
+  color: red;
 }
-h2{
-    color: blue;
+h2 {
+  color: blue;
 }
-#destacado{
-    color: red;
+#destacado {/*2*/
+  color: red;
 }
-p .destacado{
-    color: orange;   
+p .destacado {/*3*/
+  color: orange;
 }
-.adicional{
-    color: olive;S
+.adicional {
+  color: olive;
 }
-p a{
-    text-decoration: underline red;
-    color: red;
+p a:link {/*4*/
+  text-decoration: underline red;
+  color: red;
 }
-em{
-    color:blue;
+p em:first-child {/*5*/
+  color: blue;
 }
-#especial{
-    color: purple;
+
+span[class$="cial"] {/*6*/
+  color: purple;
+}
+span[id^="esp"] {/*7*/
+  color: purple;
+}
+table caption {
+  color: blue;
+}
+thead th[scope*="col"] {/*8*/
+  color: orange;
+}
+tfoot th[scope*="col"] {
+  color: red;
+}
+tbody tr:first-child {
+  color: orange;
+}
+tbody tr:last-child {/*9*/
+  color: red;
+}
+tr td {
+  color: green;
+}
+div p+a {/*10*/
+  color: green;
+  text-decoration: underline green;
+}
+div[id*="adicional"] {
+  color: olive;
+}
+table {
+  border-collapse: collapse;
+}
+table,
+th,
+td {
+  border: 1px solid black;
 }
