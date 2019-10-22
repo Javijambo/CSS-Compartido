@@ -1,0 +1,68 @@
+h1#titulo{
+    color:teal; 
+}
+
+h2{
+    color:blue; 
+}
+
+
+strong:nth-child(1){
+    color: red;
+ 
+}
+
+
+strong:last-child{
+    color: orange !important;
+
+}
+
+a[href="#"]{
+    text-decoration: underline;
+    color:red; 
+}
+
+a[href="#"] > em{
+    color:blue; 
+}
+
+
+.especial{
+    color:orange; 
+}
+
+
+
+ /* cuenta como 2*/
+table tfoot+tbody  tr:nth-child(1) ~ tr th[scope="row"] {
+    color:red !important; 
+}
+
+table > :nth-child(1){
+    color:blue; 
+}
+
+table tbody tr :nth-last-child(-n+2){
+    color:green; 
+}
+
+table tfoot :not(.especial){
+    color:red; 
+}   
+
+table > :not(caption)  > * > * {
+    border: solid 1px black; 
+}
+
+table{
+    border-collapse:collapse;
+}
+
+span.especial{
+    color:fuchsia; 
+}
+
+p .destacado{
+    color:orange !important; 
+}
