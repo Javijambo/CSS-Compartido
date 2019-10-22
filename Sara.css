@@ -1,0 +1,71 @@
+h1[id*="ulo"] {
+    color: teal;
+}
+
+strong {
+    color: red;
+}
+
+.destacado {
+    color: rgb(235, 178, 22);
+}
+
+h2#subtitulo {
+    color: blue;
+}
+
+a[href="#"] {
+    color: red;
+}
+
+p em {
+    color: blue;
+}
+
+.especial {
+    color: purple;
+}
+
+caption {
+    color: blue;
+}
+
+table+em {
+    color: green;
+}
+
+th.especial:nth-child(2n+1) {
+    color: rgb(235, 178, 22);
+}
+
+th.especial:nth-child(even) {
+    color: rgb(235, 178, 22);
+}
+
+table,
+th,
+td {
+    border: 2px black solid;
+    border-collapse: collapse;
+    color: green;
+}
+
+th[scope] {
+    color: red;
+}
+
+td strong {
+    color: rgb(235, 178, 22);
+}
+
+#especial {
+    color: fuchsia;
+}
+
+div a:only-child {
+    color: green;
+}
+
+div:nth-last-child(1) {
+    color: olive;
+}
