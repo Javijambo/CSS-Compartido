@@ -1,0 +1,51 @@
+a+span{
+    color: purple;
+}
+a[href="#"]:link{
+    color:red;
+}
+a em{
+    color:blue;
+}
+p~h2{
+    color: blue;
+}
+h1{
+    color:teal;
+}
+p strong{
+    color: red;
+}
+.destacado{
+    color: orange;
+}
+table strong{
+    color: orange;
+}
+table{
+    color: green;
+    border: black solid 1px;
+    border-collapse: collapse;
+}
+caption:nth-child(1){
+    color: blue;
+}
+table .especial{
+    color: orange;
+}
+table th{
+    color: red;
+    border: black solid 1px;
+}
+table td{
+    border: black solid 1px;
+}
+#adicional>p{
+    color:olive;
+}
+a[href*="*"]:link{
+    color:green;
+}
+#adicional  #especial{
+    color: fuchsia;
+}
