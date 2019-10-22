@@ -1,65 +1,90 @@
-#titulo{
-    font-size: 40px;
-    color: teal;
-}
-strong{
-    color:red;
-}
-.destacado{
-    color: orange;
-}
-.destacado:hover{
-    background-color: grey;
-}
-caption{
-    color:blue;
-}
-a{
-    color: red;
-}
-em{
-    color:blue;
-}
-#subtitulo{
-    color: blue;
-    font-size: 30px;
-}
-#adicional{
-    color: olive;
-}
-table, th, td{
-    border:solid thin;
-    border-collapse: collapse;
-}
-tr:nth-child(even) {
-    background-color: aqua;
-}
-a:last-child{
-    color: teal;
+#titulo {
+font-size: 40px;
+color: teal;
 }
 
-thead tr th.especial{
-    border-color: black;
-    color: orange;
+strong {
+color: red;
 }
-.especial{
-    color:purple;
+
+.destacado {
+color: orange;
 }
-tfoot tr th{
-    border-color: black;
-    color: red;
+
+.destacado:hover {
+background-color: grey;
 }
-tbody tr th.especial{
-    border-color: black;
-    color: orange;
+
+caption {
+color: blue;
 }
-tbody tr th{
-    border-color: black;
-    color: red;
+
+a {
+color: red;
 }
-tbody tr td strong{
-    color: orange;
+
+em {
+color: blue;
 }
-tbody tr td{color: green;}
-tbody tr td em{color: green;}
-div p span#especial{color:purple;}
+
+#subtitulo {
+color: blue;
+font-size: 30px;
+}
+
+#adicional {
+color: olive;
+}
+
+table, th, td {
+border: solid thin;
+border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+background-color: aqua;
+}
+
+a:last-child {
+color: teal;
+}
+
+thead tr th.especial {
+border-color: black;
+color: orange;
+}
+
+.especial {
+color: purple;
+}
+
+tfoot tr th {
+border-color: black;
+color: red;
+}
+
+tbody tr th.especial {
+border-color: black;
+color: orange;
+}
+
+tbody tr th {
+border-color: black;
+color: red;
+}
+
+tbody tr td strong {
+color: orange;
+}
+
+tbody tr td {
+color: green;
+}
+
+tbody tr td em {
+color: green;
+}
+
+div p span#especial {
+color: purple;
+}
