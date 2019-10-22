@@ -1,0 +1,70 @@
+body h1 {
+    color: teal;
+}
+
+#subtitulo {
+    color: blue;
+}
+
+a[href*="#"] {
+    color: red;
+}
+
+p em {
+    color: blue;
+}
+
+span.destacado {
+    color: orange;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+div#adicional {
+    color: olive;
+}
+
+table th.especial {
+    color: orange;
+}
+
+caption {
+    color: blue;
+}
+
+table td {
+    color: green;
+}
+
+a[href*="#"]:nth-last-child(1) {
+    color: green;
+}
+
+span.especial {
+    color: purple;
+}
+
+td strong {
+    color: orange;
+}
+
+strong {
+    color: red;
+}
+
+#especial {
+    color: fuchsia;
+}
+
+table [scope="col"] {
+    color: red;
+}
+
+table [scope="row"] {
+    color: red;
+}
