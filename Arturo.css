@@ -1,0 +1,52 @@
+
+#titulo {
+    color:#51CCCA;
+}
+.destacado {
+    color: yellow;
+}
+#subtitulo {
+    color: blue;
+}
+p strong {
+    color: red;
+}
+a { 
+    color: red; 
+    text-decoration: underline;
+}
+a > em  {
+    color: blue;
+   }
+
+.especial{
+    color:purple;
+    }
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    }
+caption:only-of-type{
+    color: blue;;
+}
+tr .especial {
+    color: yellow;
+}
+td {
+    color: green;
+}
+td strong {
+    color: yellow;
+   }
+th:not(.especial) {
+    color: red;
+}
+
+p > a:last-child {
+    color: green;
+   }
+#especial {
+    color: purple;
+}
+
+        
