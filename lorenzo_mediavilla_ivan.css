@@ -1,0 +1,35 @@
+#titulo{
+    font-size: 40px;
+    color: teal;
+}
+strong{
+    color:red;
+}
+.destacado{
+    color: orange;
+}
+.destacado:hover{
+    background-color: grey;
+}
+a{
+    color: red;
+}
+em{
+    color:blue;
+}
+#subtitulo{
+    color: blue;
+    font-size: 30px;
+}
+#adicional{
+    color: olive;
+}
+table{
+    border:solid thin;
+}
+a:last-child{
+    color: teal;
+}
+#especial{
+    color:purple;
+}
